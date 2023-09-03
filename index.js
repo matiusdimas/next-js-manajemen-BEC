@@ -4,7 +4,6 @@ const app = express()
 const cors = require('cors')
 const PORT = process.env.PORT
 const db = require('./db/db.js')
-const session = require('express-session');
 const UserRoute = require('./routes/UserRoute.js');
 const AuthRouter = require('./routes/AuthRoute.js');
 const cookieParser = require("cookie-parser")
